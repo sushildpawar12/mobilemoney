@@ -44,7 +44,7 @@ jobs:
       - name: Install Node Modules
         run: npm install
 
-      - name: Run the Build
+      - name: Run the Build.
         run: npm run build 
       
       - name: Upload the Test Coverage Results
